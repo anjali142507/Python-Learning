@@ -47,3 +47,39 @@ if(age > 18):
 else:
     print("No")    
 
+# Marks 90+ → A
+ #75+ → B
+ #60+ → C
+ #40+ → D
+ #below 40 → Fail
+
+if percent>90:
+    print("A")
+elif percent >75:
+    print("B")
+elif percent>60:
+    print("C")
+else:
+    print("D")      
+
+#loops
+# print 1-10
+for i in range (1, 11):
+ print(i)
+# print 1-10 even numbers
+for i in range (1, 11):
+    if i % 2==0:
+      print(i)
+# print 1-10 odd numbers
+for i in range (1,11):
+    if i % 2!=0:
+       print(i) 
+#1–10 multiplication table
+for i in range(1,11):
+    for j in range (1,11):
+     print(i*j)
+       
+#1–100 , 5's multiples print
+for i in range (5, 101):
+    if i % 5==0:
+        print(i)
