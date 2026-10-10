@@ -83,3 +83,9 @@ for i in range(1,11):
 for i in range (5, 101):
     if i % 5==0:
         print(i)
+
+#1-10 sum 
+sum = 0
+for i in range(1,11):
+    sum = sum + i
+      print(sum)
